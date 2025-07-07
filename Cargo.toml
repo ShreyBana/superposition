@@ -16,8 +16,9 @@ members = [
     "examples/superposition-demo-app",
     "crates/superposition_macros",
     "crates/superposition_derives",
-    "crates/core"
-]
+    "crates/core",
+    "clients/generated/smithy/rust",
+    "crates/open-feature-provider"]
 
 [[workspace.metadata.leptos]]
 name = "cac"
