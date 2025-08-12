@@ -12,6 +12,7 @@ pub mod logic;
 mod overridden;
 #[cfg(feature = "result")]
 pub mod result;
+mod context_resolver;
 
 use std::fmt::Display;
 #[cfg(feature = "server")]
