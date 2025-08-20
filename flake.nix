@@ -47,7 +47,7 @@
           devShells.default = pkgs.mkShell {
             inputsFrom = [
               self'.devShells.rust
-              # self'.devShells.haskell
+              self'.devShells.haskell
               config.pre-commit.devShell
             ];
             # Add your devShell tools here
