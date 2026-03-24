@@ -7,3 +7,4 @@ pub mod helpers;
 pub mod middlewares;
 pub mod redis;
 pub mod service;
+pub use service::types::DbConnection;
